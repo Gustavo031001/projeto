@@ -1,0 +1,7 @@
+create table cliente (
+	id serial Primary Key,
+	cpf varchar (20),
+	nome varchar(100),
+	telefone varchar(50),
+	endereco varchar(100)
+);
