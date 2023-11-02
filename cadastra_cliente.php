@@ -16,4 +16,12 @@
     //fecha conexao
     pg_close($conexao);
     
-    echo "Cliente cadastrado com sucesso!";
+    //echo "Cliente cadastrado com sucesso!";
+    //substituido pelo redirecionamento
+
+    //redireciona para listagem
+    header("Location: lista_cadastros.php");
+//passa como parametros via $_GET o id de cada cliente
+    echo "<td><a href='form_atualiza_cliente.php?id_cliente=$cliente[id]'> atualizar </a><td>";
+    echo "<td><a href='exclui_cliente.php?id_cliente=$cliente[id]'> excluir</a></td>";    
+?>
