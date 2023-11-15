@@ -16,7 +16,7 @@
     //fecha conexao
     pg_close($conexao);
     
-    //echo "Cliente cadastrado com sucesso!";
+    //echo "Gestor cadastrado com sucesso!";
     //substituido pelo redirecionamento
 
     //redireciona para listagem
