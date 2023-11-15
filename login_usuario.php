@@ -1,7 +1,7 @@
 <! DOCTYPE html>
 <html>
     <head>
-        <title> Autenticação de Usuarios</title>
+        <title> Autenticação do Gestor</title>
         <meta charset="UTF-8">
     </head>
 <body>
