@@ -1,4 +1,4 @@
-create table cliente (
+create table Gestor (
 id serial Primary Key,
 cpf varchar (20),
 nome varchar(100),
