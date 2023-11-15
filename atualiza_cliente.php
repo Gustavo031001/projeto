@@ -4,7 +4,7 @@
     include "conecta_postgres.inc";
 
     //recupera os dados do cliente
-    $id = $POST("id_cliente");
+    $id = $POST("id_gestor");
     $nome = $POST("txtNome");
     $cpf = $POST("txtCPF");
     $telefone = $POST("txtTelefone");
@@ -17,7 +17,7 @@
     $linhas = pg_affected_rows($result);
 
     if($linhas==1){
-        echo "Cliente atualizado com sucesso!"."<br/>";
+        echo "Gestor atualizado com sucesso!"."<br/>";
         echo "<a href='lista_cadastros.php'>Voltar</a>";
     }else{
         echo "Operação não realizada.";
