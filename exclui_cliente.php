@@ -2,7 +2,7 @@
 
     include"conecta_postgres.inc";
     //recupera o id do cliente
-    $id =$_GET("id_cliente");
+    $id =$_GET("id_gestor");
     //string sql
     $sql = "DELETE FROM cliente WHERE id='id'";
     //executa sql
